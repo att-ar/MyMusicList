@@ -1,0 +1,22 @@
+{
+    "name": "mymusiclistbackend",
+    "version": "0.0.1",
+    "description": "apollo graphql backend for mymusiclist",
+    "main": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "compile": "tsc",
+        "start": "npm run compile && node ./dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Attar Aziz",
+    "license": "MIT",
+    "dependencies": {
+        "@apollo/server": "^4.7.1",
+        "graphql": "^16.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.3",
+        "typescript": "^5.0.4"
+    }
+}
